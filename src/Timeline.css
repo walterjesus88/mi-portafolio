@@ -1,0 +1,26 @@
+/* Timeline.css */
+.vertical-timeline-element {
+  margin-bottom: 20px; /* Espacio entre elementos de la línea de tiempo */
+}
+
+.timeline-content {
+  display: flex; /* Organiza la imagen y la descripción en una fila */
+  justify-content: space-between; /* Coloca la descripción a la izquierda y la imagen a la derecha */
+  align-items: center;
+}
+
+.timeline-description {
+  flex: 1; /* La descripción toma el ancho restante */
+  margin-right: 20px; /* Espacio entre la descripción y la imagen */
+}
+
+.timeline-image {
+  flex: 0 0 250px; /* Ancho fijo para la imagen */
+  order: 2; /* Asegura que la imagen aparezca al final de la fila */
+}
+
+.timeline-image img {
+  width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+  border-radius: 8px;
+  cursor: pointer;
+}
